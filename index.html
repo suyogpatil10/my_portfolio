@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>python-developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+       *{
+         margin: 0;
+         padding: 0;
+       }
+       body{
+            background-color: rgb(4, 4, 54);
+            color: white;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 100px;
+            background-color: black;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover{
+            color:red;
+            font-size: 1.2rem;
+        }
+        .left{
+            font-size: 1.8rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            align-items: center;
+        }
+
+        .firstsection > div{
+            width: 37%;
+        }
+        .leftsection{
+            
+            font-size: 3rem;
+            
+        }
+        .leftsection .btn{
+           padding: 12px;
+           background: rgb(4, 4, 54);
+           color: white;
+           border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor:pointer
+        }
+        .rightsection img{
+            width: 491px;
+        }
+        .purple{
+            color: purple;
+        }
+
+        .second section{
+        text-align: center;
+        }
+        
+       footer{
+        background-color:rgb(4, 4, 54);
+        height: 160px;
+       } 
+        .footer{
+            display: flex;
+            margin: 23px 122px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Suyog's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+         Hi , My Name Is <span class="purple">Suyog</span>
+         <div>And I Am A Passionate</div>
+         <div>Web Developer</div>
+         <div class="buttons">
+            <button class="btn"> Download Resume </button>
+            <button class="btn"><a href="https://github.com">Visit Github</a></button>
+         </div>
+            </div>
+            <div class="rightsection">
+        <img src="bg.png">
+            </div>
+        </section>
+<section class="secondsection" style="margin-top: 0;">
+        <h2 style="color: white; text-align: center;text-decoration: solid; font-size: 2.4rem; ">My Skills</h2>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-bottom: 60px;margin-top: 60px;">
+            <span style="background-color: #ff5733; color: white; padding: 10px 20px; border-radius: 20px; font-size: 18px;">HTML</span>
+            <span style="background-color: #2965f1; color: white; padding: 10px 20px; border-radius: 20px; font-size: 18px;">CSS</span>
+            <span style="background-color: #f7df1e; color: black; padding: 10px 20px; border-radius: 20px; font-size: 18px;">JavaScript</span>
+            <span style="background-color: #3776ab; color: white; padding: 10px 20px; border-radius: 20px; font-size: 18px;">Python</span>
+            <span style="background-color: #092e20; color: white; padding: 10px 20px; border-radius: 20px; font-size: 18px;">Django</span>
+            <span style="background-color: red; color: white; padding: 10px 20px; border-radius: 20px; font-size: 18px;">Mysql</span>
+        </div>
+</section>
+    </main>
+    <hr>
+    <footer style="margin-top: 30px; padding: 15px; background-color:rgb(4, 4, 54) ; color: white; display: flex; justify-content: space-between; align-items: center;">
+        <div>
+            <a href="/index.html" style="color: white; text-decoration: none; margin-right: 15px;">Home</a>
+            <a href="/about.html" style="color: white; text-decoration: none; margin-right: 15px;">About</a>
+            <a href="/projects.html" style="color: white; text-decoration: none; margin-right: 15px;">Projects</a>
+            <a href="/contact.html" style="color: white; text-decoration: none;">Contact Us</a>
+        </div>
+        <div>
+            <a href="https://github.com/" target="_blank" style="color: white; text-decoration: none; margin-right: 15px;">
+                <img src="github-mark-white.png" alt="GitHub" style="width: 24px; vertical-align: middle;"> GitHub
+            </a>
+            <a href="https://linkedin.com/" target="_blank" style="color: white; text-decoration: none;">
+                <img src="icons8-linkedin-48.png" alt="LinkedIn" style="width: 24px; vertical-align: middle;"> LinkedIn
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+       * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         font-family: 'Poppins', sans-serif;
+       }
+       body {
+            background-color: rgb(4, 4, 54);
+            color: white;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background-color: black;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+        }
+        nav ul li a:hover {
+            color: red;
+        }
+        .projects-container {
+            max-width: 1100px;
+            margin: 50px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background: white;
+            color: black;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            height: 400px;
+        }
+        .project {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            width: 100%;
+        }
+        .project img {
+            width: 120px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .project-info {
+            flex: 1;
+        }
+        footer {
+            background-color: rgb(4, 4, 54);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .social-links img {
+            width: 24px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Suyog's Portfolio</div>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="projects-container" id="projects">
+        <h1>Projects</h1>
+        <div class="project">
+            <img src="discount_17677638.png"Rental Bike Project>
+            <div class="project-info">
+                <h2>Rental Bike Web App</h2>
+                <p>A web application developed using Django, featuring Razorpay payment integration for secure transactions.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="cloud-computing_5587404.png" alt="AWS Load Balancing Project">
+            <div class="project-info">
+                <h2>AWS Load Balancing</h2>
+                <p>An AWS cloud computing project focusing on load balancing to efficiently manage web traffic and server performance.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-links">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/contact.html">Contact Us</a>
+        </div>
+        <div class="social-links" style="display: flex;">
+            <a href="https://github.com/" target="_blank">
+                <img src="github-mark-white.png" alt="GitHub"> GitHub
+            </a>
+            <a href="https://linkedin.com/" target="_blank">
+                <img src="icons8-linkedin-48.png" alt="LinkedIn"> LinkedIn
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
